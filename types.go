@@ -44,6 +44,10 @@ func main() {
 	fmt.Println(f + g)
 
 	const PI = 3.14
+	const radius = 7.0
+	area := PI * radius * radius
+	fmt.Println("el area es: ", area)
+
 	fmt.Println(PI)
 
 	fmt.Println(name)
