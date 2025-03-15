@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+const name string = "John Doe"
+
 func main() {
 
 	fmt.Println("Hello, World!" + " " + "I am learning Go programming language")
@@ -27,5 +29,39 @@ func main() {
 
 	var d int = 20
 	fmt.Println(d)
+
+	fmt.Println(c + d)
+
+	//Short hand declaration
+	e := 15
+	fmt.Println(e)
+
+	//Multiple variable declaration
+	var (
+		f = 50
+		g = 50
+	)
+	fmt.Println(f + g)
+
+	const PI = 3.14
+	fmt.Println(PI)
+
+	fmt.Println(name)
+
+	// Type conversion
+	var h int = 10
+	var i int32
+	i = int32(h)
+	fmt.Println(i)
+
+	//multiple constant declaration
+	const (
+		r = 10
+		l = 20
+		k // k will have the same value as l
+	)
+
+	fmt.Println(r + l + k)
+	fmt.Println(l)
 
 }
