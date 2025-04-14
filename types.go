@@ -165,7 +165,7 @@ func main() {
 		Age  int
 	}
 
-	var p Person = Person{Name: "John", Age: 30}
+	p := Person{Name: "John", Age: 30}
 	//fmt.Println(p.Name)
 	//fmt.Println(p.Age)
 	//p.Name = "Dixon"
