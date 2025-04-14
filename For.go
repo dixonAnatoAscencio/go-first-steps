@@ -64,7 +64,7 @@ func TrabajarCicloFor() {
 	}
 
 	// Bucle infinito
-	for {
+	/*for {
 		fmt.Println("Este bucle se ejecutará indefinidamente.")
 
 		// Para romper el bucle después de un tiempo
@@ -75,5 +75,5 @@ func TrabajarCicloFor() {
 			fmt.Println("Saliendo del bucle...")
 			break // Rompe el bucle
 		}
-	}
+	}*/
 }

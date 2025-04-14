@@ -10,4 +10,8 @@ func main() {
 	trabajarConMaps()
 	Pointers()
 	TrabajarCicloFor()
+	sumarDosNumeros()
+	Retorno()
+	ResultadoArea()
+	resultSumaVariadics()
 }
