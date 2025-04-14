@@ -9,4 +9,5 @@ func main() {
 	trabajarConStructs()
 	trabajarConMaps()
 	Pointers()
+	TrabajarCicloFor()
 }
